@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import { useState,useEffect } from "react";
 
 function App() {
-
+  
   const [menuOpen,setMenuOpen] = useState(false);
   const [ratio,setRatio] = useState(window.innerWidth/window.innerHeight);
   // console.log(ratio);
