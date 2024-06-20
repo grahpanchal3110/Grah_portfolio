@@ -6,6 +6,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 $p;
+    position: -webkit-sticky;
     position: sticky;
     top: 0%;
     z-index: 60;
