@@ -17,10 +17,10 @@
 
   #work {
     padding: 8rem $p_md;
-    height: 110vh;
+    height: 100vh;
     > section {
       > article {
-        height: 20rem;
+        height: 10rem;
         width: 90%;
       }
       .workItem {
@@ -39,9 +39,50 @@
   }
 
   #services {
-    padding: $p_md;
-    > section {
-      height: 90%;
+    padding: $p_sm;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    section {
+      gap: 1rem;
+    }
+
+    .serviceBox1{
+      width: 100%; // Adjust to full width for small screens
+      // padding: $p_sm;
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      p,
+      span {
+        font-size: 1rem;
+      }
+
+      svg {
+        font-size: 2.5rem;
+      }
+
+    }
+    .serviceBox2 {
+      width: 210%;
+      height: 25vh;
+      margin-top: 110PX; // Adjust to full width for small screens
+      // padding: $p_sm;
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      p,
+      span {
+        font-size: 1rem;
+      }
+
+      svg {
+        font-size: 2.5rem;
+      }
     }
   }
   #testimonial {

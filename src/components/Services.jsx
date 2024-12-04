@@ -37,25 +37,11 @@ const Services = () => {
         <motion.div
           className="serviceBox2"
           whileInView={animations.whileInView}
-          initial={animations.twoAndThree}
+          initial={animations.one}
         >
           <AiFillIeCircle />
           <span>Web Development</span>
         </motion.div>
-        {/* <motion.div className="serviceBox3" whileInView={animations.whileInView}
-            initial={animations.twoAndThree}
-            transition={{
-                delay:0.2,
-            }}
-            >
-                <AiFillAndroid/>
-                <span>App Development</span>
-            </motion.div>
-            <motion.div className="serviceBox4" whileInView={animations.whileInView}
-            initial={animations.four}>
-                <AiFillWindows/>
-                <span>Desktop Development</span>
-            </motion.div> */}
       </section>
     </div>
   );
