@@ -3,8 +3,8 @@ import Contact from "./components/Contact";
 import Header, { HeaderPhone } from "./components/Header";
 import Home from "./components/Home";
 import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
-import Timeline from "./components/Timeline";
+// import Testimonial from "./components/Testimonial";
+// import Timeline from "./components/Timeline";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
 import { useState, useEffect } from "react";
@@ -32,9 +32,9 @@ function App() {
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home ratio={ratio} />
       <Work />
-      <Timeline />
+      {/* <Timeline /> */}
       <Services />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Toaster />
       <Footer />
